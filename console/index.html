@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Report Fix Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">R→F</span>
+    <div>
+      <div class="title">Report → Fix</div>
+      <div class="sub" id="modeNote"></div>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-tab="queue" class="on">Queue</button>
+    <button data-tab="bonus">Found without a report <span class="count" id="bonusCount"></span></button>
+    <button data-tab="audit">Audit log <span class="count" id="auditCount"></span></button>
+  </nav>
+  <div class="who">
+    <label for="reviewer">Reviewer</label>
+    <input id="reviewer" placeholder="Your name" autocomplete="name">
+    <button id="themeBtn" class="ghost icon" title="Toggle theme" aria-label="Toggle theme">◐</button>
+  </div>
+</header>
+
+<main id="view-queue" class="layout">
+  <aside class="queue" id="queue" aria-label="Review queue"></aside>
+  <section class="detail" id="detail" aria-live="polite"></section>
+</main>
+
+<main id="view-bonus" class="page" hidden></main>
+<main id="view-audit" class="page" hidden></main>
+
+<div class="keys" id="keys">
+  <kbd>J</kbd>/<kbd>K</kbd> next/prev · <kbd>A</kbd> approve · <kbd>E</kbd> edit · <kbd>R</kbd> reject · <kbd>?</kbd> hide
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

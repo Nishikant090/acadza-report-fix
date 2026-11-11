@@ -1,0 +1,415 @@
+{
+ "60ca4feb6420652745f55522": {
+  "answer": "C",
+  "working": "F ∝ q1q2; new F = 100×1.1×0.9 = 99 N",
+  "missing": "",
+  "all_correct_options": [
+   "C"
+  ],
+  "confidence": 0.98,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea616d0cda73d07e93ae6": {
+  "answer": 1,
+  "working": "q/2 at face centre: half its flux = q/(4ε0). 2q at corner: 1/8 of 2q/ε0 = q/(4ε0). Total q/(2ε0) = nq/(2ε0) ⇒ n = 1",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.93,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea715387eea3d0d95f790": {
+  "answer": 3113,
+  "working": "A = 6(7.203)^2 = 311.299; 4 s.f. ⇒ 311.3 m^2; 10A = 3113",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "61ee6c9d90a1a968a168686b": {
+  "answer": "B",
+  "working": "Lymphoid aggregates in ileum = Peyer's patches",
+  "missing": "",
+  "all_correct_options": [
+   "B"
+  ],
+  "confidence": 0.98,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68c9ae5afb6b2f16e2d43b1c": {
+  "answer": "D",
+  "working": "E = 12400/4000 = 3.1 eV; Kmax = 1.1 eV ⇒ V0 = 1.1 V",
+  "missing": "",
+  "all_correct_options": [
+   "D"
+  ],
+  "confidence": 0.98,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea87d387eea3d0d95fbe3": {
+  "answer": "A",
+  "working": "Charge conserved: CV0 = KCV + CV = αCV^2 + CV ⇒ V^2 + V − 30 = 0 ⇒ V = 5 V",
+  "missing": "",
+  "all_correct_options": [
+   "A"
+  ],
+  "confidence": 0.92,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "696a866665252c04fc1f81c2": {
+  "answer": null,
+  "working": "ΔV = (P/B)V needs V; cube edge length not given",
+  "missing": "edge length (volume) of the copper cube",
+  "all_correct_options": [],
+  "confidence": 0.9,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "63c7cce12981ed154ee92c94": {
+  "answer": "C",
+  "working": "C = kε0A/d = 10×8.85e-12×1/1e-3 = 8.85e-8 F; i_d = C dV/dt = 2.2e-6 A",
+  "missing": "",
+  "all_correct_options": [
+   "C"
+  ],
+  "confidence": 0.96,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea619d0cda73d07e93aee": {
+  "answer": 4,
+  "working": "Δθ = ½(π/2 − π/4)t^2 = (π/8)t^2 = 2π ⇒ t = 4 s",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.96,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68e872546e45ba37dcc16bc0": {
+  "answer": null,
+  "working": "Forces are an action-reaction pair: ratio 1:1. Visible options 9:16, 2:√3, 3:4 are all wrong; option (C) is empty",
+  "missing": "option (C) text is empty; correct value 1:1 is not among visible options",
+  "all_correct_options": [],
+  "confidence": 0.9,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "66fe9dbe22132e5a70a3e579": {
+  "answer": "D",
+  "working": "PTH–calcitonin, insulin–glucagon, aldosterone–ANF are antagonistic; relaxin–inhibin are not",
+  "missing": "",
+  "all_correct_options": [
+   "D"
+  ],
+  "confidence": 0.93,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "620e23cecc50543bc7db9186": {
+  "answer": "B",
+  "working": "Outgroup comparison: check a more distantly related snake",
+  "missing": "",
+  "all_correct_options": [
+   "B"
+  ],
+  "confidence": 0.88,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6208e80a9cb2ab67dac61bd0": {
+  "answer": "C",
+  "working": "Understorey plants get mostly green light (transmitted by canopy), poorly absorbed",
+  "missing": "",
+  "all_correct_options": [
+   "C"
+  ],
+  "confidence": 0.9,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea657387eea3d0d95f54a": {
+  "answer": 5,
+  "working": "u = −12.5, real image m = −4 ⇒ v = 50; 1/f = 1/50 + 1/12.5 = 1/10 ⇒ P = 10 D ⇒ 5 D each",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.94,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "61dffbec08489156b684bd22": {
+  "answer": "A",
+  "working": "Intestinal lining = (columnar) epithelium",
+  "missing": "",
+  "all_correct_options": [
+   "A"
+  ],
+  "confidence": 0.98,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68e870ef42c06737d6e565c4": {
+  "answer": "D",
+  "working": "P = ⅓ρv^2 = ⅓×0.09×160000 = 4800 N/m^2",
+  "missing": "",
+  "all_correct_options": [
+   "D"
+  ],
+  "confidence": 0.98,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68e8734442c06737d6e56da4": {
+  "answer": "A",
+  "working": "m = 10 kg: F − 100μ = 10; 2F − 100μ = 100 ⇒ F = 90, μ = 0.8",
+  "missing": "",
+  "all_correct_options": [
+   "A"
+  ],
+  "confidence": 0.96,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6956d79788d7701e5617bc29": {
+  "answer": "B",
+  "working": "φ = 90° ⇒ P = VrmsIrms cos90° = 0 W. Options B and C are both '0 W' (two correct in SCQ)",
+  "missing": "",
+  "all_correct_options": [
+   "B",
+   "C"
+  ],
+  "confidence": 0.9,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "695ee00b88d7701e561aabc5": {
+  "answer": null,
+  "working": "Equal amplitudes, φ = π/2: I = 4I0cos^2(π/4) = 2I0 ≠ I0 ⇒ Assertion false. Reason ('always the sum if φ ≠ 0') false. No option says both false",
+  "missing": "no option for 'A false, R false'",
+  "all_correct_options": [],
+  "confidence": 0.85,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "622df25ab70e4b50e44ff837": {
+  "answer": "B",
+  "working": "Figure not given; assuming end 1 hemispherical (radius r, smallest possible) and end 2 sub-hemispherical (radius > r): P1 > P2 ⇒ air 1→2, bubble 1 shrinks",
+  "missing": "figure referenced in stem",
+  "all_correct_options": [
+   "B"
+  ],
+  "confidence": 0.6,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6208e298fa399567e0878700": {
+  "answer": "A",
+  "working": "Julius von Sachs (1854) – glucose/starch in green parts",
+  "missing": "",
+  "all_correct_options": [
+   "A"
+  ],
+  "confidence": 0.92,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "695ede2a88d7701e561aa9d9": {
+  "answer": "D",
+  "working": "Statement I true (bridge to transplant). Dialysis IS supportive for non-transplant patients, so Statement II (as negated) is false",
+  "missing": "",
+  "all_correct_options": [
+   "D"
+  ],
+  "confidence": 0.8,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "612151a6a34397610a9a2e58": {
+  "answer": "B",
+  "working": "K = h^2/(2mλ^2) = (6.63e-34)^2/(2×9.1e-31×9e-20) = 2.68e-18 J ≈ 16.8 eV",
+  "missing": "",
+  "all_correct_options": [
+   "B"
+  ],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "60f742f6660d187cc13a8078": {
+  "answer": null,
+  "working": "Z = √(R^2 + X_L^2) needs L; inductance value not given",
+  "missing": "value of the inductance",
+  "all_correct_options": [],
+  "confidence": 0.9,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68f21df0941cda588bc0470b": {
+  "answer": "A",
+  "working": "p = √(2m·KE) ⇒ 4×KE ⇒ 2×p",
+  "missing": "",
+  "all_correct_options": [
+   "A"
+  ],
+  "confidence": 0.99,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6264197209f4fd65f58f5707": {
+  "answer": "C",
+  "working": "Golden rice: β-carotene (provitamin A)",
+  "missing": "",
+  "all_correct_options": [
+   "C"
+  ],
+  "confidence": 0.99,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "617fa18efd53ff1629ed890f": {
+  "answer": "D",
+  "working": "Lamina = green expanded leaf blade with veins",
+  "missing": "",
+  "all_correct_options": [
+   "D"
+  ],
+  "confidence": 0.99,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6062ec84518e9535e120c422": {
+  "answer": "A",
+  "working": "α = 0.19/(100×100) = 1.9e-5 /°C; γ = 3α = 5.7e-5 /°C",
+  "missing": "",
+  "all_correct_options": [
+   "A"
+  ],
+  "confidence": 0.97,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "5fc60508028950133eac8963": {
+  "answer": 20,
+  "working": "f_max = μN = 30 N > mg = 20 N ⇒ static friction = 20 N",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea6e6387eea3d0d95f6f8": {
+  "answer": 16,
+  "working": "x = √(D(D−4f)) = √(150×54) = 90; ratio = ((D+x)/(D−x))^2 = 16",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.96,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68f21caf941cda588bc04365": {
+  "answer": [
+   "B"
+  ],
+  "working": "N/N0 = 1/8 ⇒ t/τ = ln 8 ⇒ τ = 3/2.079 = 1.44 min; only B",
+  "missing": "",
+  "all_correct_options": [
+   "B"
+  ],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "60f744b3f1b9bc7cc7b4a949": {
+  "answer": "A",
+  "working": "V = √(40^2 + (60−30)^2) = 50 V",
+  "missing": "",
+  "all_correct_options": [
+   "A"
+  ],
+  "confidence": 0.99,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68c801bc1b1dbc16dc93bf2b": {
+  "answer": "A",
+  "working": "λmin = 12400/24800 Å = 0.5 Å; K = 150/λ^2 eV = 600 eV",
+  "missing": "",
+  "all_correct_options": [
+   "A"
+  ],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea577d0cda73d07e9391c": {
+  "answer": 14,
+  "working": "V = kQ/R = 16. V(R/2) = 11V/8 = 22; V(2R) = V/2 = 8 ⇒ 14 V",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "636283dbe3770c24f866e6d6": {
+  "answer": "B",
+  "working": "R = 4r, Q = 64q ⇒ σ ratio = 64/16 = 4:1",
+  "missing": "",
+  "all_correct_options": [
+   "B"
+  ],
+  "confidence": 0.97,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6263d75bdd44e265ef926d97": {
+  "answer": 20,
+  "working": "Extra buoyancy for 2 cm: a^2×2×1 g = 800 g ⇒ a = 20 cm",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.96,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "622f08d7b70e4b50e4500a1b": {
+  "answer": "C",
+  "working": "v_cm = (10×14)/(14) = 10 m/s (only options A–C visible)",
+  "missing": "option (D) not present",
+  "all_correct_options": [
+   "C"
+  ],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "63765a28f1d8416ae0408d89": {
+  "answer": "C",
+  "working": "1/8 remains ⇒ 3 half-lives = 180 days (stem shows raw '\frac{7}{8}', read as 7/8)",
+  "missing": "",
+  "all_correct_options": [
+   "C"
+  ],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68c8153cfb6b2f16e2d3ceaf": {
+  "answer": [
+   "A",
+   "B",
+   "D"
+  ],
+  "working": "A straight line ✓, B parabola ✓, C parallel to B: straight line (not helix) ✗, D circle ✓",
+  "missing": "",
+  "all_correct_options": [
+   "A",
+   "B",
+   "D"
+  ],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6956d7e988d7701e5617bd3e": {
+  "answer": "D",
+  "working": "ω = π/8; v = Aω cos(ωt) at t = 2: π = A(π/8)(1/√2) ⇒ A = 8√2 m",
+  "missing": "",
+  "all_correct_options": [
+   "D"
+  ],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6956d7bb23cb221e570d6013": {
+  "answer": "B",
+  "working": "u²sin²θ/2g = u²·2sinθcosθ/g ⇒ tanθ = 4",
+  "missing": "",
+  "all_correct_options": [
+   "B"
+  ],
+  "confidence": 0.97,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea7c2387eea3d0d95f9bb": {
+  "answer": 8,
+  "working": "shift = (D/d)[t1(μ1−1) − t2(μ2−1)] = 200×(1.0−0.6)e-3 = 0.08 m = 8 cm",
+  "missing": "",
+  "all_correct_options": [],
+  "confidence": 0.95,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68ecbacb2ec87a18deba1ad7": {
+  "answer": "B",
+  "working": "Absolute refractory period: Na+ channel inactivation",
+  "missing": "",
+  "all_correct_options": [
+   "B"
+  ],
+  "confidence": 0.97,
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ }
+}

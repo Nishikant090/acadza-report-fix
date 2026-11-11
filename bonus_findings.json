@@ -1,0 +1,99 @@
+[
+ {
+  "questionId": "61ee6c9d90a1a968a168686b",
+  "repair": "spelling",
+  "field": "solution",
+  "detail": "'prominant' → 'prominent', 'Maceus membrane' → 'Mucous membrane'.",
+  "edit": {
+   "field": "solution",
+   "find": "prominant",
+   "replace": "prominent"
+  }
+ },
+ {
+  "questionId": "66fe9dbe22132e5a70a3e579",
+  "repair": "solution_fix",
+  "field": "solution",
+  "detail": "Solution says insulin and glucagon 'work synergistically'; they are antagonistic (the stem itself treats them as antagonistic).",
+  "edit": {
+   "field": "solution",
+   "find": "work synergistically to keep",
+   "replace": "work antagonistically to keep"
+  }
+ },
+ {
+  "questionId": "620e23cecc50543bc7db9186",
+  "repair": "spelling",
+  "field": "solution",
+  "detail": "'wheater' → 'whether'.",
+  "edit": {
+   "field": "solution",
+   "find": "wheater",
+   "replace": "whether"
+  }
+ },
+ {
+  "questionId": "68dea657387eea3d0d95f54a",
+  "repair": "notation",
+  "field": "solution",
+  "detail": "Garbled subscripts 'P_eqcu' and 'P_eqch' in the last two lines; should be P_eq = 2P and P = 5 D.",
+  "edit": null
+ },
+ {
+  "questionId": "612151a6a34397610a9a2e58",
+  "repair": "notation",
+  "field": "solution",
+  "detail": "λ = h/|I| should be h/|p| (typo in second step).",
+  "edit": null
+ },
+ {
+  "questionId": "6264197209f4fd65f58f5707",
+  "repair": "spelling",
+  "field": "solution",
+  "detail": "Words run together: 'Golden riceis', 'producebeta-carotene', 'ofvitamin', 'helpprevent', 'tonight blindness'.",
+  "edit": {
+   "field": "solution",
+   "find": "Golden riceis",
+   "replace": "Golden rice is"
+  }
+ },
+ {
+  "questionId": "617fa18efd53ff1629ed890f",
+  "repair": "spelling",
+  "field": "question",
+  "detail": "Missing space renders 'part ofleaf' ('of<span>leaf').",
+  "edit": {
+   "field": "question",
+   "find": "part of<span",
+   "replace": "part of <span"
+  }
+ },
+ {
+  "questionId": "6062ec84518e9535e120c422",
+  "repair": "notation",
+  "field": "question",
+  "detail": "Superscripts lost: '0oC', '10-5/oC' should be 0 °C and 10⁻⁵ /°C; solution shows '/AC' and '/CC'.",
+  "edit": null
+ },
+ {
+  "questionId": "5fc60508028950133eac8963",
+  "repair": "stem_data",
+  "field": "question",
+  "detail": "'The friction between wall and body is 0.3' should say 'coefficient of friction'.",
+  "edit": null
+ },
+ {
+  "questionId": "68f21caf941cda588bc04365",
+  "repair": "wrong_chapter",
+  "field": "chapter",
+  "detail": "Radioactive decay / mean life filed under 'Mathematics in physics'; belongs in Nuclear physics and radioactivity.",
+  "edit": null
+ },
+ {
+  "questionId": "6956d7e988d7701e5617bd3e",
+  "repair": "notation",
+  "field": "solution",
+  "detail": "'v −(dx)/(dt)− Aω cos ωt' should use '=' signs; options write '2√(2 m)' with the unit inside the root.",
+  "edit": null
+ }
+]

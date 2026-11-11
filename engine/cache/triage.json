@@ -1,0 +1,848 @@
+{
+ "60f744b3f1b9bc7cc7b4a949": {
+  "reports": [
+   {
+    "reportId": "R001",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": "C",
+     "replace": "A"
+    },
+    "confidence": 0.96,
+    "evidence": "V = √(40² + (60−30)²) = 50 V = option (A); the stored solution also ends at 50 V; key says (C) 130 V.",
+    "student_reply": "You're right. The supply voltage is √(40² + 30²) = 50 V, option (A), and the answer key wrongly said (C). It's fixed now. Thanks for checking the solution against the key."
+   },
+   {
+    "reportId": "R002",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": "C",
+     "replace": "A"
+    },
+    "confidence": 0.95,
+    "evidence": "Vague comment, but the key is wrong: V = √(V_R² + (V_L − V_C)²) = 50 V = (A); key says (C).",
+    "student_reply": "Thanks for flagging this. You were right, the key was wrong. The answer is (A) 50 V, because V = √(40² + (60 − 30)²). It's fixed now."
+   },
+   {
+    "reportId": "R003",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": "C",
+     "replace": "A"
+    },
+    "confidence": 0.96,
+    "evidence": "Student's √(40²+30²) = 50 V is correct = option (A); 130 V (C) would need adding magnitudes linearly; key C is wrong.",
+    "student_reply": "Your calculation is correct: √(40² + 30²) = 50 V, option (A). 130 V came from a wrong answer key, and it's been fixed. Good work checking it yourself."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68e870ef42c06737d6e565c4": {
+  "reports": [
+   {
+    "reportId": "R004",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": "A",
+     "replace": "D"
+    },
+    "confidence": 0.95,
+    "evidence": "P = ⅓ρv² = ⅓ × 0.09 × 400² = 4800 N/m² = option (D); solution also gets 4800; key says (A) 4556. Student's 8225 is also wrong.",
+    "student_reply": "Aap sahi the ki key galat thi, lekin sahi answer 8225 nahi hai. P = ⅓ρv² = ⅓ × 0.09 × 400² = 4800 N/m², yaani option (D). Key ab (D) kar di gayi hai."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea616d0cda73d07e93ae6": {
+  "reports": [
+   {
+    "reportId": "R005",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": "2",
+     "replace": "1"
+    },
+    "confidence": 0.93,
+    "evidence": "Face-centre q/2 → q/(4ε₀); corner 2q → (1/8)(2q/ε₀) = q/(4ε₀); total q/(2ε₀) = nq/(2ε₀) ⇒ n = 1. Stored solution also reaches q/(2ε₀); key says 2.",
+    "student_reply": "You're right, n = 1. The face-centre charge contributes q/(4ε₀) and the corner charge q/(4ε₀), so the total is q/(2ε₀). The key said 2 and has been corrected."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "696a866665252c04fc1f81c2": {
+  "reports": [
+   {
+    "reportId": "R006",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+     "field": "question",
+     "find": "solid copper cube,",
+     "replace": "solid copper cube of side 10 cm,"
+    },
+    "confidence": 0.9,
+    "evidence": "Stem gives no edge length; solution uses (10×10⁻²)³ m³, and (7×10⁶/1.4×10¹¹) × 10⁻³ m³ = 5×10⁻⁸ m³ = 50 mm³ matches the key.",
+    "student_reply": "Good catch, the edge length was missing. The solution uses a 10 cm cube, and we've added that to the question. With it, ΔV = (P/B)·V = 50 mm³."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "60f742f6660d187cc13a8078": {
+  "reports": [
+   {
+    "reportId": "R008",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+     "field": "question",
+     "find": "and an inductance are",
+     "replace": "and an inductance of 95.5 mH are"
+    },
+    "confidence": 0.88,
+    "evidence": "Stem omits L; solution uses L = 95.5×10⁻³ H: X_L = 2π·50·0.0955 ≈ 30 Ω, Z = √(40² + 30²) = 50 Ω = key (C).",
+    "student_reply": "You're right, the inductance value was missing. It's 95.5 mH, which gives X_L ≈ 30 Ω and Z = 50 Ω. We've added it to the question."
+   },
+   {
+    "reportId": "R007",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+     "field": "question",
+     "find": "and an inductance are",
+     "replace": "and an inductance of 95.5 mH are"
+    },
+    "confidence": 0.88,
+    "evidence": "Same defect as R008: L missing from stem; solution's L = 95.5 mH gives X_L ≈ 30 Ω and Z = 50 Ω = key (C).",
+    "student_reply": "Sahi pakda, inductance ki value question me missing thi. Solution 95.5 mH use karta hai (X_L ≈ 30 Ω), toh Z = √(40² + 30²) = 50 Ω. Question me value add kar di hai."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "622f08d7b70e4b50e4500a1b": {
+  "reports": [
+   {
+    "reportId": "R010",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": {
+     "field": "question",
+     "find": "</math></h3>",
+     "replace": "</math><br/>(D) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>5</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mstyle></math></h3>"
+    },
+    "confidence": 0.82,
+    "evidence": "Stored HTML has only (A)–(C). Key (C) 10 m/s = (10×14)/(10+4) is present, so restoring distractor (D) 5 m/s cannot change the answer; stem untouched.",
+    "student_reply": "Thanks, option (D) was missing from this question and has been restored. The answer is unchanged: v_cm = (10 × 14)/(10 + 4) = 10 m/s, option (C)."
+   },
+   {
+    "reportId": "R009",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": {
+     "field": "question",
+     "find": "</math></h3>",
+     "replace": "</math><br/>(D) <math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mn>5</mn><mrow><mtext>&#x000A0;</mtext><mi mathvariant=\"normal\">m</mi></mrow><mo>&#x0002F;</mo><mi>&#x00073;</mi></mrow></mstyle></math></h3>"
+    },
+    "confidence": 0.82,
+    "evidence": "Same as R010: option (D) absent from stored HTML; key (C) 10 m/s verified; restored (D) is a non-answer distractor.",
+    "student_reply": "You're right, option (D) was missing. We've restored it. The answer is still (C) 10 m/s, since v_cm = (10 × 14)/(10 + 4)."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68e872546e45ba37dcc16bc0": {
+  "reports": [
+   {
+    "reportId": "R011",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": {
+     "field": "question",
+     "find": "(C) <br />",
+     "replace": "(C) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 1 </mn><mi>:</mi><mn> 1 </mn></mrow></math><br />"
+    },
+    "confidence": 0.92,
+    "evidence": "Newton's third law: |F₁₂| = |F₂₁| ⇒ 1 : 1. Option (C) is empty and is the key; solution shows |F₁₂| = |−F₂₁|. Fill (C) with 1 : 1, stem untouched.",
+    "student_reply": "Aapka confusion bilkul valid tha, option (C) blank tha. Dono charges par force barabar hoti hai (Newton's third law), toh ratio 1 : 1 hai. Yeh ab option (C) me dikh raha hai."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "61dffbec08489156b684bd22": {
+  "reports": [
+   {
+    "reportId": "R012",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": {
+     "field": "question",
+     "find": "Epithellial tisue",
+     "replace": "Epithelial tissue"
+    },
+    "confidence": 0.97,
+    "evidence": "Option (A) reads 'Epithellial tisue'; words only, key (A) unchanged.",
+    "student_reply": "Thanks! Option (A) should read \"Epithelial tissue\". Fixed. The answer is still (A)."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "617fa18efd53ff1629ed890f": {
+  "reports": [
+   {
+    "reportId": "R013",
+    "verdict": "defect",
+    "repair": "exam_reference",
+    "edit": {
+     "field": "question",
+     "find": "(NEET 2019) ",
+     "replace": ""
+    },
+    "confidence": 0.95,
+    "evidence": "'(NEET 2019)' source tag sits inside the stem; removing it changes no content. Key (D) Lamina verified.",
+    "student_reply": "Good eye. The \"(NEET 2019)\" tag is just a source label and shouldn't be in the question text, so we've removed it. The answer, (D) Lamina, is unchanged."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "spelling",
+    "field": "question",
+    "detail": "Missing space renders 'part ofleaf' ('of<span>leaf').",
+    "edit": {
+     "field": "question",
+     "find": "part of<span",
+     "replace": "part of <span"
+    }
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "63765a28f1d8416ae0408d89": {
+  "reports": [
+   {
+    "reportId": "R014",
+    "verdict": "defect",
+    "repair": "markup_leak",
+    "edit": {
+     "field": "question",
+     "find": "\\frac{7}{8}",
+     "replace": "<math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>"
+    },
+    "confidence": 0.96,
+    "evidence": "Raw LaTeX '\\frac{7}{8}' is shown as text; replaced with MathML 7/8. Key (C): 1/8 left = 3 half-lives = 180 days.",
+    "student_reply": "Thanks, that was raw code showing instead of the fraction 7/8. It's fixed. The answer is (C) 180 days, because 1/8 remaining means 3 half-lives."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6956d79788d7701e5617bc29": {
+  "reports": [
+   {
+    "reportId": "R015",
+    "verdict": "defect",
+    "repair": "identical_options",
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "Options (B) and (C) both read '0 W'; key (B), so (C) is equally 'correct'. A new distractor has to be authored by faculty.",
+    "student_reply": "You're right, (B) and (C) are both \"0 W\". The answer is 0 W because cos 90° = 0. We've sent the question to faculty to replace the duplicate option."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6263d75bdd44e265ef926d97": {
+  "reports": [
+   {
+    "reportId": "R016",
+    "verdict": "defect",
+    "repair": "solution_fix",
+    "edit": {
+     "field": "solution",
+     "find": "a = 40 cm",
+     "replace": "a<sup>2</sup> = 400, so a = 20 cm"
+    },
+    "confidence": 0.93,
+    "evidence": "800 g extra buoyancy for 2 cm: 2·a²·1 = 800 ⇒ a = 20 cm. Key 20 is right; solution's last line says 40 cm (arithmetic slip).",
+    "student_reply": "The answer 20 cm is correct. 2 × a² = 800 gives a² = 400, so a = 20 cm. The last line of the solution had a mistake, and we've fixed it. Thanks for asking."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6208e80a9cb2ab67dac61bd0": {
+  "reports": [
+   {
+    "reportId": "R017",
+    "verdict": "already_fixed",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "errorHistory: faculty changed 'mere' → 'more' in options A–C on 2026-11-07, after this 2026-11-04 report; live options read 'more'.",
+    "student_reply": "Thanks for reporting! The \"mere\" → \"more\" spelling was corrected on 7 Nov, so the options read correctly now."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "612151a6a34397610a9a2e58": {
+  "reports": [
+   {
+    "reportId": "R018",
+    "verdict": "defect",
+    "repair": "solution_fix",
+    "edit": {
+     "field": "solution",
+     "find": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>5.469</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>10</mn></mrow></msup><mi>m</mi><mo>&#x0003D;</mo><mn>5.47</mn><mi>\\AA</mi></mrow></mstyle></math>",
+     "replace": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>K</mi><mo>=</mo><mfrac><msup><mi>p</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi></mrow></mfrac><mo>=</mo><mfrac><msup><mi>h</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>&#x003BB;</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><msup><mrow><mo>(</mo><mn>6.63</mn><mo>&#x000D7;</mo><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>34</mn></mrow></msup><mo>)</mo></mrow><mn>2</mn></msup><mrow><mn>2</mn><mo>&#x000D7;</mo><mn>9.1</mn><mo>&#x000D7;</mo><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>31</mn></mrow></msup><mo>&#x000D7;</mo><msup><mrow><mo>(</mo><mn>0.3</mn><mo>&#x000D7;</mo><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>9</mn></mrow></msup><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac></mrow></mstyle></math>"
+    },
+    "confidence": 0.86,
+    "evidence": "Solution opens with '= 5.469×10⁻¹⁰ m = 5.47 Å' (a wavelength from a different problem). K = h²/(2mλ²) at λ = 0.3 nm = 2.68×10⁻¹⁸ J ≈ 16.8 eV = key (B), so only the stray line is replaced.",
+    "student_reply": "You're right, the first line of the solution came from a different question. The answer (B) 16.8 eV is correct: K = h²/(2mλ²) ≈ 2.7 × 10⁻¹⁸ J ≈ 16.8 eV. We've fixed the solution."
+   },
+   {
+    "reportId": "R019",
+    "verdict": "defect",
+    "repair": "solution_fix",
+    "edit": {
+     "field": "solution",
+     "find": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mo>&#x0003D;</mo><mn>5.469</mn><mi>&#x000D7;</mi><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>10</mn></mrow></msup><mi>m</mi><mo>&#x0003D;</mo><mn>5.47</mn><mi>\\AA</mi></mrow></mstyle></math>",
+     "replace": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mstyle displaystyle=\"true\"><mrow><mi>K</mi><mo>=</mo><mfrac><msup><mi>p</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi></mrow></mfrac><mo>=</mo><mfrac><msup><mi>h</mi><mn>2</mn></msup><mrow><mn>2</mn><mi>m</mi><msup><mi>&#x003BB;</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><msup><mrow><mo>(</mo><mn>6.63</mn><mo>&#x000D7;</mo><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>34</mn></mrow></msup><mo>)</mo></mrow><mn>2</mn></msup><mrow><mn>2</mn><mo>&#x000D7;</mo><mn>9.1</mn><mo>&#x000D7;</mo><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>31</mn></mrow></msup><mo>&#x000D7;</mo><msup><mrow><mo>(</mo><mn>0.3</mn><mo>&#x000D7;</mo><msup><mn>10</mn><mrow><mo>&#x02212;</mo><mn>9</mn></mrow></msup><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac></mrow></mstyle></math>"
+    },
+    "confidence": 0.86,
+    "evidence": "Same as R018: stray '5.47 Å' line from another problem; rest of the solution ends at 16.8 eV = key (B).",
+    "student_reply": "Sahi pakda, 5.47 Å wali line kisi aur question ki thi. Is question ka answer (B) 16.8 eV hi hai: K = h²/(2mλ²) ≈ 16.8 eV. Solution theek kar diya hai."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "notation",
+    "field": "solution",
+    "detail": "λ = h/|I| should be h/|p| (typo in second step).",
+    "edit": null
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68c8153cfb6b2f16e2d3ceaf": {
+  "reports": [
+   {
+    "reportId": "R020",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": [
+      "A, B, D"
+     ],
+     "replace": [
+      "A",
+      "B",
+      "D"
+     ]
+    },
+    "confidence": 0.94,
+    "evidence": "Key stored as one string 'A, B, D' instead of three letters, so a correct A+B+D response cannot match. Physics: A, B, D true; C false (parallel to B ⇒ straight line).",
+    "student_reply": "Your answer A, B, D is correct. The key was saved in the wrong format, so correct answers were being marked wrong. It's fixed now."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68f21caf941cda588bc04365": {
+  "reports": [
+   {
+    "reportId": "R021",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": [
+      "",
+      "B"
+     ],
+     "replace": [
+      "B"
+     ]
+    },
+    "confidence": 0.88,
+    "evidence": "Key ['', 'B'] has an empty entry, so marking B alone cannot match. τ = 3/ln 8 = 1.44 min ⇒ only (B). One correct option is valid in multiple-correct, so type stays mcq.",
+    "student_reply": "You were right that only (B) is correct: τ = 3/ln 8 ≈ 1.44 min. The key had a blank entry, so your correct answer was marked wrong. We've fixed it."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "wrong_chapter",
+    "field": "chapter",
+    "detail": "Radioactive decay / mean life filed under 'Mathematics in physics'; belongs in Nuclear physics and radioactivity.",
+    "edit": null
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "61ee6c9d90a1a968a168686b": {
+  "reports": [
+   {
+    "reportId": "R022",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": {
+     "field": "question",
+     "find": "plexux",
+     "replace": "plexus"
+    },
+    "confidence": 0.97,
+    "evidence": "Option (D) reads 'Choroid plexux'; words only, key (B) unchanged.",
+    "student_reply": "Thanks! It should be \"Choroid plexus\". Fixed. The answer is still (B) Peyer's patches."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "spelling",
+    "field": "solution",
+    "detail": "'prominant' → 'prominent', 'Maceus membrane' → 'Mucous membrane'.",
+    "edit": {
+     "field": "solution",
+     "find": "prominant",
+     "replace": "prominent"
+    }
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68ecbacb2ec87a18deba1ad7": {
+  "reports": [
+   {
+    "reportId": "R023",
+    "verdict": "defect",
+    "repair": "wrong_chapter",
+    "edit": null,
+    "confidence": 0.93,
+    "evidence": "Refractory period / Na⁺ channel inactivation is Neural Control and Coordination (Zoology), filed under Botany › The Living World. Key (B) verified.",
+    "student_reply": "You're right, the refractory period belongs to Neural Control and Coordination, not The Living World. We've asked faculty to move it. The answer (B) is correct."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "5fc60508028950133eac8963": {
+  "reports": [
+   {
+    "reportId": "R024",
+    "verdict": "defect",
+    "repair": "answer_form",
+    "edit": {
+     "field": "question",
+     "find": "frictional force is equal to",
+     "replace": "frictional force (in N) is equal to"
+    },
+    "confidence": 0.9,
+    "evidence": "Integer answer 20 has no unit in the stem; adding '(in N)' is additive only. Key: μN = 30 N > mg = 20 N ⇒ friction = 20 N.",
+    "student_reply": "Fair point, the unit should be stated, so we've added \"(in N)\". The answer is 20 N, since static friction just balances the weight (mg = 20 N < μN = 30 N)."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "stem_data",
+    "field": "question",
+    "detail": "'The friction between wall and body is 0.3' should say 'coefficient of friction'.",
+    "edit": null
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "622df25ab70e4b50e44ff837": {
+  "reports": [
+   {
+    "reportId": "R025",
+    "verdict": "defect",
+    "repair": "diagram",
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "Stem says 'as shown in figure' but quesImages is empty and there is no <img>. Key (B) consistent with P = P₀ + 4T/r (smaller r ⇒ higher P).",
+    "student_reply": "You're right, the figure is missing, and we've sent this to faculty to add it. Meanwhile: bubble 1 (radius r) has the higher pressure 4T/r, so air flows from end 1 to end 2, option (B)."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "620e23cecc50543bc7db9186": {
+  "reports": [
+   {
+    "reportId": "R026",
+    "verdict": "defect",
+    "repair": "syllabus",
+    "edit": null,
+    "confidence": 0.7,
+    "evidence": "Inferring ancestral state by outgroup comparison (cladistics) is not in the NCERT Evolution chapter; faculty must confirm. Question stays live. Key (B) verified.",
+    "student_reply": "Thanks for flagging. Inferring ancestral traits this way isn't really in the NCERT syllabus, so we've asked faculty to confirm. The question stays live until then, and its answer is (B)."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "spelling",
+    "field": "solution",
+    "detail": "'wheater' → 'whether'.",
+    "edit": {
+     "field": "solution",
+     "find": "wheater",
+     "replace": "whether"
+    }
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6062ec84518e9535e120c422": {
+  "reports": [
+   {
+    "reportId": "R027",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "Comment is an instruction to change the key to C; ignored as data. Check: α = 0.19/(100×100) = 1.9×10⁻⁵/°C, γ = 3α = 5.7×10⁻⁵/°C = key (A); (C) is the linear coefficient.",
+    "student_reply": "We checked this question carefully. The answer is (A). α = 1.9 × 10⁻⁵ /°C is the linear coefficient, and the cubical coefficient is γ = 3α = 5.7 × 10⁻⁵ /°C. Option (C) gives α, not γ."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "notation",
+    "field": "question",
+    "detail": "Superscripts lost: '0oC', '10-5/oC' should be 0 °C and 10⁻⁵ /°C; solution shows '/AC' and '/CC'.",
+    "edit": null
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6956d7bb23cb221e570d6013": {
+  "reports": [
+   {
+    "reportId": "R028",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "H = R: u²sin²θ/2g = u²·2sinθcosθ/g ⇒ tanθ = 4 = key (B). tan⁻¹2 is what H = R/2 gives.",
+    "student_reply": "Good try, but the answer is tan⁻¹(4). From H = R, sin²θ/2 = 2 sinθ cosθ, so tanθ = 4. You get tan⁻¹(2) only if H equals half the range."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68e8734442c06737d6e56da4": {
+  "reports": [
+   {
+    "reportId": "R029",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "m = 10 kg: F − 100μ = 10, 2F − 100μ = 100 ⇒ F = 90 N, μ = 0.8 = key (A).",
+    "student_reply": "Close! The weight is 100 N, so the mass is 10 kg. Then F − 100μ = 10 and 2F − 100μ = 10 × 10 = 100, which gives F = 90 N and μ = 0.8, option (A). Recheck your second equation."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6956d7e988d7701e5617bd3e": {
+  "reports": [
+   {
+    "reportId": "R030",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.94,
+    "evidence": "ω = π/8; v = Aω cos(ωt) at t = 2 s: π = A(π/8)(1/√2) ⇒ A = 8√2 m = key (D).",
+    "student_reply": "The answer is 8√2 m. ω = 2π/16 = π/8, and at t = 2 s, v = Aω cos(π/4). So π = A·(π/8)·(1/√2), which gives A = 8√2."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "notation",
+    "field": "solution",
+    "detail": "'v −(dx)/(dt)− Aω cos ωt' should use '=' signs; options write '2√(2 m)' with the unit inside the root.",
+    "edit": null
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea619d0cda73d07e93aee": {
+  "reports": [
+   {
+    "reportId": "R031",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "Δθ = ½(π/2 − π/4)t² = (π/8)t² = 2π ⇒ t = 4 s = key. At 2 s the gap is only π/2.",
+    "student_reply": "Answer 4 s hi hai. Dono angles ka difference 2π hona chahiye: ½(π/2)t² − ½(π/4)t² = 2π, toh (π/8)t² = 2π aur t = 4 s. 2 s par difference sirf π/2 hota hai."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea7c2387eea3d0d95f9bb": {
+  "reports": [
+   {
+    "reportId": "R032",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.94,
+    "evidence": "Shift = (D/d)[t₁(μ₁−1) − t₂(μ₂−1)] = 200 × 0.4×10⁻³ = 0.08 m = 8 cm; the question asks for cm, so key 8 is right.",
+    "student_reply": "Aapki calculation sahi hai, 0.08 m hi aata hai. Lekin question shift cm me maang raha hai, aur 0.08 m = 8 cm. Isliye answer 8 hai."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea715387eea3d0d95f790": {
+  "reports": [
+   {
+    "reportId": "R033",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "6 × 7.203² = 311.299 m²; 7.203 has 4 s.f. ⇒ A = 311.3 m², 10A = 3113 = key.",
+    "student_reply": "Your arithmetic is right, but the answer has to follow significant figures. 7.203 has 4 significant figures, so A = 311.3 m² and 10A = 3113."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "695ee00b88d7701e561aabc5": {
+  "reports": [
+   {
+    "reportId": "R034",
+    "verdict": "defect",
+    "repair": "unsound",
+    "edit": null,
+    "confidence": 0.85,
+    "evidence": "Equal amplitudes, φ = π/2: I = 4I₀cos²(π/4) = 2I₀ ≠ I₀ ⇒ Assertion false; Reason ('always the sum') also false; no option for 'both false'. Key (D) marks R true and the solution contradicts itself.",
+    "student_reply": "Thanks for looking closely, this question does have a problem. At a phase difference of π/2 the intensity is 4I₀cos²(π/4) = 2I₀, so the assertion is actually false, and the reason is false too, which no option covers. We've sent it to faculty to fix."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "66fe9dbe22132e5a70a3e579": {
+  "reports": [
+   {
+    "reportId": "R035",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.92,
+    "evidence": "Question asks which pair is NOT antagonistic; relaxin (softens pelvic ligaments) and inhibin (suppresses FSH) act on different targets ⇒ key (D) correct.",
+    "student_reply": "Read the question again: it asks which pair is NOT antagonistic. Relaxin and inhibin don't oppose each other (relaxin acts at childbirth, inhibin suppresses FSH), so (D) is the right answer."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "solution_fix",
+    "field": "solution",
+    "detail": "Solution says insulin and glucagon 'work synergistically'; they are antagonistic (the stem itself treats them as antagonistic).",
+    "edit": {
+     "field": "solution",
+     "find": "work synergistically to keep",
+     "replace": "work antagonistically to keep"
+    }
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "60ca4feb6420652745f55522": {
+  "reports": [
+   {
+    "reportId": "R036",
+    "verdict": "display_issue",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.9,
+    "evidence": "Stored options (A)–(D) are complete and short; key (C) 99 N checks (1.1 × 0.9 = 0.99). The cut-off is phone layout, not content.",
+    "student_reply": "Thanks for telling us. The question itself is fine (answer: 99 N, option C), and we've passed the cut-off options problem to our app team."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68c9ae5afb6b2f16e2d43b1c": {
+  "reports": [
+   {
+    "reportId": "R037",
+    "verdict": "display_issue",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.9,
+    "evidence": "Content is small, has no images and is correct (12400/4000 = 3.1 eV − 2.0 = 1.1 V = key D); slow load is delivery, not content.",
+    "student_reply": "Sorry about the slow loading. The question content is fine, and we've reported the loading problem to our app team."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68f21df0941cda588bc0470b": {
+  "reports": [
+   {
+    "reportId": "R038",
+    "verdict": "app_issue",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.92,
+    "evidence": "'Clicked A, saved B' is response recording. Content is fine: p = √(2m·KE) ⇒ 4×KE gives 2×p = key (A).",
+    "student_reply": "Sorry about that. It's an app problem, not the question, and we've sent it to our tech team. For the record, (A) was the correct answer: p = √(2m·KE), so 4× the KE gives 2× the momentum."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68c801bc1b1dbc16dc93bf2b": {
+  "reports": [
+   {
+    "reportId": "R039",
+    "verdict": "language_mode",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "Student asks for Hindi; question exists only in English. Content fine: λmin = 0.5 Å ⇒ K = 150/λ² = 600 eV = key (A).",
+    "student_reply": "Abhi yeh question sirf English me available hai, lekin Hindi version ki request note kar li hai. Answer (A) 600 eV hai: λ_min = 12400/24800 Å = 0.5 Å, aur K = 150/λ² eV = 600 eV."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6264197209f4fd65f58f5707": {
+  "reports": [
+   {
+    "reportId": "R040",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": {
+     "field": "question",
+     "find": "Canolla",
+     "replace": "Canola"
+    },
+    "confidence": 0.82,
+    "evidence": "Comment gives no detail; key (C) Golden rice (β-carotene) verified correct. The only defect found is option (B) 'Canolla' (the solution spells it 'Canola').",
+    "student_reply": "Thanks for reporting. We checked, and the answer (C) Golden rice is correct because it is engineered to make β-carotene (provitamin A). We did fix a spelling mistake in option (B), Canola."
+   }
+  ],
+  "unreported": [
+   {
+    "repair": "spelling",
+    "field": "solution",
+    "detail": "Words run together: 'Golden riceis', 'producebeta-carotene', 'ofvitamin', 'helpprevent', 'tonight blindness'.",
+    "edit": {
+     "field": "solution",
+     "find": "Golden riceis",
+     "replace": "Golden rice is"
+    }
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "6208e298fa399567e0878700": {
+  "reports": [
+   {
+    "reportId": "R041",
+    "verdict": "not_actionable",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.9,
+    "evidence": "Comment 'asdfgh' is keyboard-mash; question re-checked, key (A) Julius von Sachs is correct, no defect found.",
+    "student_reply": "We couldn't understand this report. We checked the question anyway and it's correct (answer: Julius von Sachs). If something looks wrong, tell us what it is and we'll look again."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "63c7cce12981ed154ee92c94": {
+  "reports": [
+   {
+    "reportId": "R042",
+    "verdict": "defect",
+    "repair": "wrong_chapter",
+    "edit": null,
+    "confidence": 0.92,
+    "evidence": "Displacement current (i_d = C·dV/dt) is EM waves / capacitors, filed under Geometrical optics. Key (C): 8.85×10⁻⁸ × 25 = 2.2 μA verified.",
+    "student_reply": "You're right, displacement current belongs to Electromagnetic Waves, not Geometrical Optics. We've asked faculty to move it. The answer (C) 2.2 μA is correct."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "636283dbe3770c24f866e6d6": {
+  "reports": [
+   {
+    "reportId": "R043",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "R = 4r, Q = 64q ⇒ σ_big/σ_small = (64/16) = 4 ⇒ 4:1 = key (B). More area (16×) is outweighed by 64× charge.",
+    "student_reply": "The bigger drop does have 16× the area, but it carries 64× the charge. So σ_big/σ_small = 64/16 = 4, which makes the ratio 4:1."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea577d0cda73d07e9391c": {
+  "reports": [
+   {
+    "reportId": "R044",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "confidence": 0.95,
+    "evidence": "V_P (r = R/2) = 11V/8 = 22 V; V_S (r = 2R) = V/2 = 8 V; V_P − V_S = 14 V = key. 22 V is V_P alone.",
+    "student_reply": "22 V is the potential at P (11/8 × 16). The question asks for the difference between P and S. V_S = 16/2 = 8 V, so V_P − V_S = 22 − 8 = 14 V."
+   }
+  ],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea657387eea3d0d95f54a": {
+  "reports": [],
+  "unreported": [
+   {
+    "repair": "notation",
+    "field": "solution",
+    "detail": "Garbled subscripts 'P_eqcu' and 'P_eqch' in the last two lines; should be P_eq = 2P and P = 5 D.",
+    "edit": null
+   }
+  ],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea87d387eea3d0d95fbe3": {
+  "reports": [],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "695ede2a88d7701e561aa9d9": {
+  "reports": [],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ },
+ "68dea6e6387eea3d0d95f6f8": {
+  "reports": [],
+  "unreported": [],
+  "_model": "claude-opus-5-5 (in-session, Claude Code)"
+ }
+}
