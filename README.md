@@ -2,6 +2,8 @@
 
 Turns free-text student error reports on JEE/NEET questions into safe, surgical fixes, and gives faculty a review console they can clear at 10 PM.
 
+**Live console:** https://dulcet-kitsune-24ea5b.netlify.app
+
 - **`results.json`**: triage of all 44 reports (the auto-scored deliverable)
 - **`console/`**: faculty review console (static site, deploy as-is)
 - **`PROMPTS.md`**: every prompt in the product, verbatim; build log; where the AI was wrong
